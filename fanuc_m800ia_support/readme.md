@@ -1,4 +1,4 @@
-# fanuc_r2000ic_support
+# fanuc_m800ia_support
 
 ## Overview
 
