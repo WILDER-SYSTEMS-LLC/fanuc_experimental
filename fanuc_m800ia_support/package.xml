@@ -5,30 +5,20 @@
   <version>0.1.0</version>
   <description>
     <p>
-      ROS-Industrial support for the Fanuc R-2000iC (and variants).
+      ROS-Industrial support for the Fanuc M-800iA (and variants).
     </p>
     <p>
-      This package contains configuration data, 3D models and launch files
-      for Fanuc R-2000iC manipulators. This includes the /125L, /165F, /210F,
-      /210L and /270F variants.
-    </p>
-    <p>
-      <b>Note</b>: for use with current ROS packages, the /210F is identical
-      to the /165F and reuses the meshes, kinematic structure and the OPW
-      parameters of the /165. Only the joint limits are different.
+      This package contains configuration data, 3D model and launch files
+      for Fanuc M-800iA manipulator. This includes only the /60 variant as of now.
     </p>
     <p><b>Specifications</b>:</p>
     <ul>
-      <li>R-2000iC/125L - "Conventional dress-out"</li>
-      <li>R-2000iC/165F - "Conventional dress-out"</li>
-      <li>R-2000iC/210F - "Conventional dress-out"</li>
-      <li>R-2000iC/270F - "Conventional dress-out"</li>
-      <li>R-2000iC/210L - "Conventional dress-out"</li>
+      <li>M-800iA/60 - "Conventional dress-out"</li>
     </ul>
     <p>
       Joint limits and maximum joint velocities are based on the information in
-      the <em>FANUC Robot R-2000iC Mechanical Unit Operator's Manual</em>
-      version <em>B-83644EN/01</em>. All urdfs are based on the default motion
+      the <em>FANUC Robot M-800iA Mechanical Unit Operator's Manual</em>
+      version <em>B-84204EN/02</em>. All urdfs are based on the default motion
       and joint velocity limits, unless noted otherwise (ie: no support for
       high speed joints, extended / limited motion ranges or other options).
     </p>
@@ -39,16 +29,14 @@
     </p>
     <p><b>Contributors</b>:</p>
     <p>
-      This support package has received contributions from: Timo Birnkraut and
-      Simon Schmeisser (125L), Didier Quirin (210F) ,Haris Suwignyo (Alten
-      Nederland) (270F) and Ademola Oridate (Wilder Systems)(210L)
+      This support package has received contributions from: Ademola Oridate (Wilder Systems)(M-800iA/60)
     </p>
   </description>
   <author>G.A. vd. Hoorn (TU Delft Robotics Institute)</author>
   <maintainer email="g.a.vanderhoorn@tudelft.nl">G.A. vd. Hoorn (TU Delft Robotics Institute)</maintainer>
   <license>BSD</license>
 
-  <url type="website">http://wiki.ros.org/fanuc_r2000ic_support</url>
+  <url type="website">http://wiki.ros.org/fanuc_m800ia_support</url>
   <url type="bugtracker">https://github.com/ros-industrial/fanuc_experimental/issues</url>
   <url type="repository">https://github.com/ros-industrial/fanuc_experimental</url>
 
@@ -73,7 +61,7 @@
         <tag>fanuc</tag>
         <tag>industrial</tag>
         <tag>ros-industrial</tag>
-        <tag>r2000ic</tag>
+        <tag>m800ia</tag>
         <tag>experimental</tag>
       </tags>
     </rosindex>
